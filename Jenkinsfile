@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/TU_USUARIO/TU_REPO.git'
+                git branch: 'main', url: 'https://github.com/IanMQ/PC2api.git'
             }
         }
 
